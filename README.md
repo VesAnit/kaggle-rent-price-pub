@@ -72,15 +72,3 @@ mlurfuflat/
 ```
 
 Model output is written to `submission.csv` in the project root.
-
----
-
-## Run locally
-
-```bash
-cd kaggle
-uv sync
-source .venv/bin/activate
-```
-
-Open the notebook and select the `kaggle-rent-price` kernel (`.venv`, Python 3.11), then run all cells — or call `pipeline.run_with_ensemble()` at the end.
