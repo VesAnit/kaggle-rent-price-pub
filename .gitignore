@@ -1,0 +1,6 @@
+catboost_info
+.venv/
+__pycache__/
+*.pyc
+output.log
+
